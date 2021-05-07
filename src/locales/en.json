@@ -1,0 +1,235 @@
+{
+    "version": "3.1.4",
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "labels": {
+            "name": "Name",
+            "all": "All",
+            "id": "ID",
+            "rcId": "ID",
+            "email": "Email",
+            "status": "Status",
+            "modified": "Modified",
+            "created": "Created",
+            "password": "Password",
+            "published": "Published",
+            "unknown": "Unknown*",
+            "country": "Country",
+            "date": "Date",
+            "unknownUser": "Unknown User",
+            "unknownDate": "Unknown Date",
+            "sort": "Sort",
+            "filter": "Filter",
+            "createdDate": "Created Date",
+            "publishedDate": "Published Date",
+            "modifiedDate": "Modified Date"
+        },
+        "validation": {
+            "generalRequired": "This field is required."
+        },
+        "login": "Login",
+        "continue": "Continue",
+        "next": "Next",
+        "back": "Back",
+        "register": "Register",
+        "logout": "Logout",
+        "ppmValue": "{value} ppm",
+        "mgValue": "{value} mg",
+        "ltPpmValue": "< {value} ppm",
+        "gtePpmValue": "≥ {value} ppm",
+        "confirm": "Confirm",
+        "delete": "Delete",
+        "reset": "Reset",
+        "edit": "Edit",
+        "revert": "Revert",
+        "done": "Done",
+        "update": "Update",
+        "submit": "Submit",
+        "publish": "Publish",
+        "newRevision": "New Revision",
+        "revisionNumber": "Revision {number}",
+        "dashboard": "Dashboard",
+        "noAccessTitle": "Permission Denied",
+        "noAccessContent": "You do not have access to view this page.",
+        "noResults": "There are no items matching the current search.",
+        "close": "Close",
+        "dismiss": "Dismiss"
+    },
+    "users": {
+        "labels": {
+            "fullName": "Name",
+            "sent": "Sent Date",
+            "role": "Role",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "terms": "I have read and agree to the {link}.",
+            "isManager": "Is Manager",
+            "currentPassword": "Current password",
+            "newPassword": "New password",
+            "confirmNewPassword": "Confirm new password",
+            "avatar": "User Avatar",
+            "settings": "Settings and Profile",
+            "sendWelcome": "Send welcome email"
+        },
+        "validation": {
+            "passwordRequired": "Password required",
+            "passwordLength": "Password must be at least 8 chars",
+            "passwordNonNumeric": "Password must include non-numeric chars",
+            "passwordMatch": "Passwords do not match",
+            "emailRequired": "Email address required",
+            "emailValid": "Email address must be valid"
+        },
+        "termsLink": "RCP Terms of Use",
+        "alerts": {
+            "updated": "User updated",
+            "notUpdated": "Could not save user",
+            "detailsUpdated": "Details updated",
+            "detailsNotUpdated": "Could not save details",
+            "missing": "Missing user",
+            "deleted": "User deleted",
+            "notDeleted": "Could not delete user"
+        },
+        "list": {
+            "search": "Search for a user",
+            "title": "Users"
+        },
+        "new": "New User",
+        "single": {
+            "createTitle": "Create a User",
+            "editTitle": "Edit a User",
+            "newTitle": "New User"
+        },
+        "manage": {
+            "title": "User Details",
+            "helpText": {
+                "detailsTitle": "User Details",
+                "detailsContent": "<p>Manage your profile details.</p>"
+            }
+        },
+        "tabs": {
+            "details": "User Details",
+            "organisations": "Organisations"
+        },
+        "helpText": {
+            "detailsTitle": "User Details",
+            "detailsContent": "<p>Create or manage users.</p>",
+            "organisationsTitle": "Organisations",
+            "organisationsContent": "<p>Organisations this user is a part of.</p>"
+        },
+        "generate": "Generate"
+    },
+    "login": {
+        "title": "Login to RCP",
+        "register": "Don't have an account? {link}",
+        "registerLink": "Register here.",
+        "labels": {
+            "email": "Email Address"
+        },
+        "forgotPassword": "Forgot Password"
+    },
+    "passwordReset": {
+        "alerts": {
+            "success": "Thank you, you may now login with your new password.",
+            "setPassword": "Set password for <strong>{email}</strong>",
+            "error": "Sorry, the following error has occured: <strong>{error}</strong>",
+            "resetPassword": "Reset password for <strong>{email}</strong>",
+            "invalid": "Invalid reset URL.",
+            "sentSuccess": "Thank you, an email has been sent to <strong>{email}</strong>. Please check your email.",
+            "sentError": "Whoops! An unknown error has occured"
+        },
+        "labels": {
+            "newPassword": "New Password",
+            "confirmNewPassword": "Confirm New Password",
+            "email": "Email Address"
+        },
+        "back": "Back to home"
+    },
+    "register": {
+        "login": "Already have an account? {link}",
+        "loginLink": "Login here.",
+        "title": "Register for RCP",
+        "alerts": {
+            "success": "User registration successful"
+        },
+        "validation": {
+            "generalRequired": "This field is required to register"
+        }
+    },
+    "colorSelect": {
+        "label": "Select Colour"
+    },
+    "confirmDialog": {
+        "defaultTitle": "Are you sure?",
+        "defaultDescription": "Please confirm that you would like to do this."
+    },
+    "authModule": {
+        "alerts": {
+            "missingUserSession": "User and session not set"
+        }
+    },
+    "welcome": {
+        "title": "Welcome to RCP",
+        "content": "<p>Welcome to the new RCP Calculator.</p><p>RCP Calculator version no.:3.1.4</p><p>This was launched 19th April 2021 - please advise us at <a href=\"mailto:info@allergenbureau.net\">info@allergenbureau.net</a> if you see any functionality issues in this new version of the calculator.</p><p>The Australia and New Zealand legislation in RCP was updated on 20th April, 2021, to align with the Plain English Allergen Labelling amendment to the Australia New Zealand Food Standards Code.</p><p><a href='#' target='_blank'>Click here for further information</a></p>",
+        "dontShowAgain": "Don't show this message again",
+        "moreInfo": "Click here for further information"
+    },
+    "players": {
+        "menuLabel": "Players",
+        "playerRating": "Rating",
+        "name": "Name",
+        "email": "Email",
+        "gender": "Gender",
+        "ittfId": "ITTF ID",
+        "usattId": "USATT ID",
+        "ttaId": "TTA ID",
+        "lastPlayed": "Last Played",
+        "province": "State / Province",
+        "country": "Country",
+        "primaryClub": "Primary Club",
+        "living": "Living",
+        "deceased": "Deceased",
+        "dob": "Date of Birth",
+        "yes": "Yes",
+        "no": "No",
+        "list": {
+            "title": "Players",
+            "search": "Search for a player by name"
+        },
+        "overview": {
+            "title": "Player Info"
+        },
+        "summary": {
+            "title": "Player Summary"
+        }
+    },
+    "clubs": {
+        "menuLabel": "Clubs",
+        "name": "Name",
+        "nickname": "Nickname",
+        "status": "Status",
+        "email": "Email",
+        "active": "Active",
+        "inactive": "Inactive",
+        "province": "State / Province",
+        "country": "Country",
+        "yes": "Yes",
+        "no": "No",
+        "website": "Website",
+        "phone": "Tel.",
+        "list": {
+            "title": "Clubs",
+            "search": "Search for a club by name"
+        },
+        "overview": {
+            "title": "Club Info",
+            "notFound": "Sorry - we could not find the club you are looking for"
+        },
+        "summary": {
+            "title": "Club Summary"
+        }
+    }
+}

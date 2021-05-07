@@ -1,0 +1,19 @@
+// Vuetify variable overrides
+// -------------------------------------
+
+$font-size-root: 1rem;
+$body-font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+
+$input-max-height: 40px;
+
+
+// Custom Variables
+// -------------------------------------
+
+$secondary-font-family: 'Avenir', $body-font-family;
+$font-weight-base: 400;
+$headings-font-weight: 500;
+
+$primary: #0079A5;

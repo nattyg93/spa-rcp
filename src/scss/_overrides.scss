@@ -1,0 +1,82 @@
+// vuetify overrides here
+
+// prevent animating the size of the main container when turning the app / nav bar on / off
+.v-main {
+  transition: none;
+}
+
+.v-list--nav.fix-margin {
+  padding: 0;
+  margin: 8px;
+}
+
+.v-tabs.tab-switch {
+  margin-bottom: 2rem;
+
+  .v-tabs-bar {
+    height: unset;
+    box-shadow: inset 0 -2px map-get($grey, 'lighten-2');
+  }
+
+  .v-slide-group__prev,
+  .v-slide-group__next {
+    padding-bottom: 0.75rem;
+  }
+
+  .v-tab {
+    min-width: unset;
+    padding: 0 0 0.75rem 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1rem;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .v-tab + .v-tab {
+    margin-left: 1.5rem;
+  }
+}
+
+// hide the hover bg
+
+.v-data-table {
+  .v-list-item::before {
+    display: none;
+  }
+}
+
+// dialog styling - need to fix!
+
+.v-dialog > .v-card > .v-card__text {
+  .section-title {
+    margin-top: 0.5rem;
+  }
+
+  .section-title:not(:first-child) {
+    margin-top: 2rem;
+  }
+}
+
+// add extra padding to action buttons
+
+.v-dialog > .v-card > .v-card__actions {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+// fix the append slot
+.v-input.fix-input-append {
+  .v-input__append-inner {
+    align-self: center !important;
+    margin-top: 0 !important;
+  }
+}
+
+.v-tooltip__content {
+  padding: 8px 16px;
+  line-height: 1.5;
+  font-size: 0.75rem;
+}

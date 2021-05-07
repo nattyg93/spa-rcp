@@ -1,0 +1,130 @@
+// Headings Overrides
+// -------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-weight: $headings-font-weight;
+}
+
+h1,
+.h1 {
+  font-size: 1.875rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.625rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+  font-size: 1rem;
+}
+
+h5,
+.h5 {
+  font-size: 0.875rem;
+}
+
+// Font Utilities
+// -------------------------------------
+
+.text--x-large {
+  font-size: 1.25rem;
+}
+
+.text--large {
+  font-size: 1.125rem;
+}
+
+.text--regular {
+  font-size: 1rem;
+}
+
+.text--small {
+  font-size: 0.875rem;
+}
+
+.text--x-small {
+  font-size: 0.75rem;
+}
+
+.text--pre {
+  white-space: pre-line;
+}
+
+.title-underlined {
+  font-family: $secondary-font-family;
+  font-weight: $headings-font-weight;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--v-primary-base);
+
+  &--grey {
+    border-bottom: 1px solid map-get($grey, 'lighten-2');
+  }
+}
+
+.section-title {
+  font-family: $body-font-family;
+  font-weight: $headings-font-weight;
+  color: var(--v-primary-base);
+  font-size: 0.875rem;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+
+  &__underlined {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid map-get($grey, 'lighten-2');
+  }
+}
+
+// Text Content Block
+// -------------------------------------
+
+.v-application .content {
+  font-size: 0.875rem;
+  font-family: $secondary-font-family;
+
+  > * {
+    margin: 1rem 0;
+  }
+
+  li + li {
+    margin-top: 0.4rem;
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+
+  &--max-width {
+    max-width: 800px;
+  }
+
+  &--centered {
+    max-width: 540px;
+    text-align: center;
+    margin: auto;
+  }
+
+  &--text-lg {
+    font-size: 1rem;
+  }
+}
